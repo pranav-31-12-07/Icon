@@ -1,15 +1,12 @@
 /**
  * Icon English School - Theme Manager
- * Executes immediately to prevent Flash of Unstyled / Wrong-Theme Content (FOUC)
+ * Light Mode is the primary default theme.
+ * Executes immediately to prevent Flash of Unstyled / Wrong-Theme Content (FOUC).
  */
 
 (function initTheme() {
   const STORAGE_KEY = 'ies-theme-preference';
   
-  function getSystemPreference() {
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  }
-
   function getStoredTheme() {
     try {
       return localStorage.getItem(STORAGE_KEY);
@@ -18,7 +15,8 @@
     }
   }
 
-  const activeTheme = getStoredTheme() || getSystemPreference();
+  // Default strictly to 'light' mode unless explicitly chosen by user
+  const activeTheme = getStoredTheme() || 'light';
   document.documentElement.setAttribute('data-theme', activeTheme);
 
   // Function to toggle or set theme globally
@@ -41,7 +39,7 @@
         btn.setAttribute('title', isDark ? 'Switch to light mode' : 'Switch to dark mode');
       });
 
-      // Dispatch custom event if any component needs to re-render charts or canvases
+      // Dispatch custom event for theme changes
       window.dispatchEvent(new CustomEvent('ies-theme-changed', { detail: { theme } }));
     },
     toggle: function() {
@@ -51,14 +49,4 @@
       return next;
     }
   };
-
-  // Listen to OS theme changes if user hasn't explicitly set a preference
-  if (window.matchMedia) {
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-      if (!getStoredTheme()) {
-        window.IESTheme.set(e.matches ? 'dark' : 'light');
-      }
-    });
-  }
 })();
-
