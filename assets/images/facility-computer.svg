@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#EDF3F7"/>
+  <!-- High Tech Grid Background -->
+  <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.5" fill="#CFD8DC"/>
+  </pattern>
+  <rect width="600" height="400" fill="url(#dotGrid)"/>
+
+  <!-- Computer Workstation 1 -->
+  <rect x="60" y="160" width="130" height="90" rx="6" fill="#263238" stroke="#455A64" stroke-width="3"/>
+  <rect x="70" y="170" width="110" height="70" rx="3" fill="#00612E"/>
+  <line x1="85" y1="185" x2="135" y2="185" stroke="#81C784" stroke-width="3" stroke-linecap="round"/>
+  <line x1="85" y1="200" x2="160" y2="200" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+  <line x1="85" y1="215" x2="115" y2="215" stroke="#64B5F6" stroke-width="3" stroke-linecap="round"/>
+  <!-- Monitor Stand & Desk -->
+  <rect x="115" y="250" width="20" height="25" fill="#78909C"/>
+  <rect x="95" y="275" width="60" height="8" rx="2" fill="#546E7A"/>
+  <rect x="40" y="280" width="170" height="40" rx="4" fill="#ECEFF1" stroke="#B0BEC5" stroke-width="2"/>
+  <rect x="80" y="286" width="90" height="14" rx="2" fill="#37474F"/>
+
+  <!-- Computer Workstation 2 (Center) -->
+  <rect x="235" y="140" width="130" height="90" rx="6" fill="#263238" stroke="#00612E" stroke-width="3"/>
+  <rect x="245" y="150" width="110" height="70" rx="3" fill="#002D15"/>
+  <circle cx="300" cy="180" r="18" fill="#E6BE1E"/>
+  <text x="300" y="185" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="10" font-weight="800" fill="#0A0A0A" text-anchor="middle">&lt;/&gt;</text>
+  <text x="300" y="210" font-family="'Roboto', Arial, sans-serif" font-size="9" fill="#81C784" text-anchor="middle">Coding &amp; Logic</text>
+  <!-- Monitor Stand & Desk -->
+  <rect x="290" y="230" width="20" height="25" fill="#78909C"/>
+  <rect x="270" y="255" width="60" height="8" rx="2" fill="#546E7A"/>
+  <rect x="215" y="260" width="170" height="40" rx="4" fill="#ECEFF1" stroke="#B0BEC5" stroke-width="2"/>
+  <rect x="255" y="266" width="90" height="14" rx="2" fill="#37474F"/>
+
+  <!-- Computer Workstation 3 -->
+  <rect x="410" y="160" width="130" height="90" rx="6" fill="#263238" stroke="#455A64" stroke-width="3"/>
+  <rect x="420" y="170" width="110" height="70" rx="3" fill="#00612E"/>
+  <line x1="435" y1="185" x2="485" y2="185" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+  <line x1="435" y1="200" x2="510" y2="200" stroke="#81C784" stroke-width="3" stroke-linecap="round"/>
+  <line x1="435" y1="215" x2="465" y2="215" stroke="#64B5F6" stroke-width="3" stroke-linecap="round"/>
+  <!-- Monitor Stand & Desk -->
+  <rect x="465" y="250" width="20" height="25" fill="#78909C"/>
+  <rect x="445" y="275" width="60" height="8" rx="2" fill="#546E7A"/>
+  <rect x="390" y="280" width="170" height="40" rx="4" fill="#ECEFF1" stroke="#B0BEC5" stroke-width="2"/>
+  <rect x="430" y="286" width="90" height="14" rx="2" fill="#37474F"/>
+
+  <!-- Ergonomic Chairs -->
+  <g fill="#00612E">
+    <circle cx="125" cy="335" r="22"/>
+    <circle cx="300" cy="325" r="22"/>
+    <circle cx="475" cy="335" r="22"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_galleryyogasvg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00897B"/>
+      <stop offset="100%" stop-color="#08140F"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bg_galleryyogasvg)"/>
+  
+  <!-- Subtle decorative rings -->
+  <circle cx="300" cy="200" r="160" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.12"/>
+  <circle cx="300" cy="200" r="110" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.18"/>
+  <circle cx="300" cy="200" r="60" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.25"/>
+
+  <!-- Center Badge / Shield -->
+  <g transform="translate(250, 150)">
+    <rect x="0" y="0" width="100" height="100" rx="20" fill="rgba(255, 255, 255, 0.15)" stroke="#E6BE1E" stroke-width="3"/>
+    <text x="50" y="58" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">IES</text>
+  </g>
+
+  <!-- Card Details Overlay -->
+  <rect x="30" y="320" width="540" height="95" rx="12" fill="rgba(15, 23, 21, 0.88)" stroke="rgba(255, 255, 255, 0.15)"/>
+  <text x="50" y="352" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#E6BE1E" letter-spacing="1">HOLISTIC WELLNESS</text>
+  <text x="50" y="380" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Morning Mindfulness & Yoga</text>
+  <text x="50" y="400" font-family="'Roboto', Arial, sans-serif" font-size="12" fill="#A3B5AF">Icon English School • Jyotinagar, Chhatrapati Sambhajinagar</text>
+</svg>

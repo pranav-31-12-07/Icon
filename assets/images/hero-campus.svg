@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F4F8"/>
+      <stop offset="60%" stop-color="#F7FAF9"/>
+      <stop offset="100%" stop-color="#EBF5EE"/>
+    </linearGradient>
+    <linearGradient id="bldgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F0F4F2"/>
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00612E"/>
+      <stop offset="100%" stop-color="#00431F"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFDF00"/>
+      <stop offset="100%" stop-color="#E6BE1E"/>
+    </linearGradient>
+    <linearGradient id="lawnGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34A853"/>
+      <stop offset="100%" stop-color="#1E7E34"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky & Warm Sun -->
+  <rect width="800" height="520" fill="url(#skyGrad)"/>
+  <circle cx="680" cy="90" r="48" fill="url(#accentGrad)" opacity="0.85"/>
+  <circle cx="680" cy="90" r="64" fill="#FFDF00" opacity="0.2"/>
+
+  <!-- Clouds -->
+  <path d="M120,80 Q135,65 155,75 Q175,60 195,72 Q215,65 225,80 Q235,95 215,100 L120,100 Z" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M420,110 Q435,95 455,105 Q475,90 495,102 Q515,95 525,110 Q535,125 515,130 L420,130 Z" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Background Trees -->
+  <circle cx="100" cy="340" r="70" fill="#2E7D32" opacity="0.3"/>
+  <circle cx="170" cy="330" r="60" fill="#388E3C" opacity="0.35"/>
+  <circle cx="660" cy="330" r="75" fill="#2E7D32" opacity="0.3"/>
+  <circle cx="730" cy="340" r="60" fill="#388E3C" opacity="0.35"/>
+
+  <!-- Main School Building -->
+  <!-- Central Block -->
+  <rect x="250" y="160" width="300" height="230" rx="4" fill="url(#bldgGrad)" stroke="#D0DED7" stroke-width="2"/>
+  <!-- Central Triangular Pediment -->
+  <polygon points="230,160 400,90 570,160" fill="url(#roofGrad)"/>
+  <!-- Clock / Emblem in Pediment -->
+  <circle cx="400" cy="132" r="18" fill="#FFFFFF" stroke="url(#accentGrad)" stroke-width="3"/>
+  <line x1="400" y1="132" x2="400" y2="122" stroke="#00612E" stroke-width="2" stroke-linecap="round"/>
+  <line x1="400" y1="132" x2="408" y2="132" stroke="#00612E" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Left Wing -->
+  <rect x="110" y="210" width="145" height="180" rx="4" fill="#F8FAF9" stroke="#D0DED7" stroke-width="2"/>
+  <polygon points="100,210 182,175 265,210" fill="url(#roofGrad)"/>
+
+  <!-- Right Wing -->
+  <rect x="545" y="210" width="145" height="180" rx="4" fill="#F8FAF9" stroke="#D0DED7" stroke-width="2"/>
+  <polygon points="535,210 618,175 700,210" fill="url(#roofGrad)"/>
+
+  <!-- Main School Arch Entrance -->
+  <path d="M360,390 L360,290 C360,265 440,265 440,290 L440,390 Z" fill="#00431F"/>
+  <rect x="355" y="270" width="90" height="8" rx="2" fill="url(#accentGrad)"/>
+  <!-- School Name Signboard -->
+  <rect x="280" y="175" width="240" height="32" rx="4" fill="#00612E"/>
+  <text x="400" y="196" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="12" font-weight="800" fill="#FFDF00" text-anchor="middle" letter-spacing="1">ICON ENGLISH SCHOOL</text>
+
+  <!-- Windows Grid -->
+  <!-- Left Wing Windows -->
+  <g fill="#A9D6E5" stroke="#FFFFFF" stroke-width="2">
+    <rect x="130" y="230" width="30" height="38" rx="3"/>
+    <rect x="180" y="230" width="30" height="38" rx="3"/>
+    <rect x="130" y="290" width="30" height="38" rx="3"/>
+    <rect x="180" y="290" width="30" height="38" rx="3"/>
+  </g>
+
+  <!-- Central Windows -->
+  <g fill="#A9D6E5" stroke="#FFFFFF" stroke-width="2">
+    <rect x="280" y="230" width="32" height="42" rx="3"/>
+    <rect x="330" y="230" width="32" height="42" rx="3"/>
+    <rect x="438" y="230" width="32" height="42" rx="3"/>
+    <rect x="488" y="230" width="32" height="42" rx="3"/>
+    
+    <rect x="280" y="300" width="32" height="42" rx="3"/>
+    <rect x="488" y="300" width="32" height="42" rx="3"/>
+  </g>
+
+  <!-- Right Wing Windows -->
+  <g fill="#A9D6E5" stroke="#FFFFFF" stroke-width="2">
+    <rect x="565" y="230" width="30" height="38" rx="3"/>
+    <rect x="615" y="230" width="30" height="38" rx="3"/>
+    <rect x="565" y="290" width="30" height="38" rx="3"/>
+    <rect x="615" y="290" width="30" height="38" rx="3"/>
+  </g>
+
+  <!-- Front Lawn & Flagmast -->
+  <path d="M0,380 C240,365 560,365 800,380 L800,520 L0,520 Z" fill="url(#lawnGrad)"/>
+  <!-- Pathway -->
+  <path d="M350,390 L450,390 L520,520 L280,520 Z" fill="#DFE6E3"/>
+
+  <!-- Flagpole -->
+  <line x1="220" y1="280" x2="220" y2="430" stroke="#7F8C8D" stroke-width="4"/>
+  <circle cx="220" cy="278" r="5" fill="url(#accentGrad)"/>
+  <!-- Indian National Tricolor Flag -->
+  <rect x="222" y="282" width="45" height="10" fill="#FF9933"/>
+  <rect x="222" y="292" width="45" height="10" fill="#FFFFFF"/>
+  <circle cx="244.5" cy="297" r="4.5" fill="none" stroke="#000080" stroke-width="1"/>
+  <rect x="222" y="302" width="45" height="10" fill="#138808"/>
+
+  <!-- Happy Students Illustrative Shapes -->
+  <!-- Student 1 -->
+  <circle cx="340" cy="445" r="12" fill="#D4A373"/>
+  <rect x="330" y="457" width="20" height="30" rx="4" fill="#00612E"/>
+  <rect x="328" y="462" width="6" height="18" rx="2" fill="#FFDF00"/>
+
+  <!-- Student 2 -->
+  <circle cx="460" cy="445" r="12" fill="#E0AC69"/>
+  <rect x="450" y="457" width="20" height="30" rx="4" fill="#00612E"/>
+  <rect x="466" y="460" width="8" height="12" rx="2" fill="#B8860B"/>
+
+  <!-- Trees Front -->
+  <g>
+    <rect x="68" y="380" width="14" height="60" fill="#5D4037"/>
+    <circle cx="75" cy="370" r="42" fill="#2E7D32"/>
+    <circle cx="95" cy="355" r="32" fill="#43A047"/>
+
+    <rect x="710" y="380" width="14" height="60" fill="#5D4037"/>
+    <circle cx="717" cy="370" r="42" fill="#2E7D32"/>
+    <circle cx="695" cy="355" r="32" fill="#43A047"/>
+  </g>
+</svg>

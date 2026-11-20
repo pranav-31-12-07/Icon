@@ -1,0 +1,164 @@
+/**
+ * Icon English School - Design System Tokens
+ * Switchable Light & Dark Mode Semantic Variables
+ */
+
+:root,
+[data-theme="light"] {
+  /* Color Palette - Surfaces & Canvas */
+  --bg-canvas: #FAFBF9;
+  --bg-surface: #FFFFFF;
+  --bg-surface-alt: #F0F5F2;
+  --bg-surface-elevated: #FFFFFF;
+  --bg-header: rgba(255, 255, 255, 0.92);
+  --bg-backdrop: rgba(15, 23, 21, 0.55);
+
+  /* Typography Colors */
+  --text-primary: #0F1715;
+  --text-secondary: #475551;
+  --text-muted: #6B7C77;
+  --text-inverse: #FFFFFF;
+
+  /* Brand Colors */
+  --brand-primary: #00612E;
+  --brand-primary-hover: #004922;
+  --brand-primary-light: #E6F3EC;
+  --brand-on-primary: #FFFFFF;
+
+  /* Accent & Energy Colors */
+  --brand-accent: #E6BE1E;
+  --brand-accent-hover: #D4AD10;
+  --brand-accent-light: #FEF9E7;
+  --brand-on-accent: #0A0A0A;
+
+  /* Actions & Status */
+  --action-whatsapp: #25D366;
+  --action-whatsapp-hover: #1EBE5D;
+  --action-phone: #0284C7;
+  --status-error: #C0392B;
+  --status-error-bg: #FDEDEC;
+  --status-success: #27AE60;
+  --status-success-bg: #EAFAF1;
+  --status-info: #2980B9;
+  --status-info-bg: #EBF5FB;
+
+  /* Borders & Dividers */
+  --border-subtle: #DCE5E1;
+  --border-strong: #BDC8C3;
+  --border-accent: rgba(230, 190, 30, 0.45);
+  --focus-ring: #00612E;
+
+  /* Elevation Shadows */
+  --shadow-xs: 0 1px 3px rgba(15, 23, 21, 0.05);
+  --shadow-sm: 0 2px 6px rgba(15, 23, 21, 0.06);
+  --shadow-card: 0 4px 20px -2px rgba(15, 23, 21, 0.06);
+  --shadow-hover: 0 14px 30px -4px rgba(0, 97, 46, 0.16);
+  --shadow-dropdown: 0 12px 36px -6px rgba(15, 23, 21, 0.14);
+  --shadow-modal: 0 24px 60px -12px rgba(15, 23, 21, 0.28);
+  --shadow-glow: 0 0 25px rgba(230, 190, 30, 0.35);
+}
+
+[data-theme="dark"] {
+  /* Color Palette - Surfaces & Canvas */
+  --bg-canvas: #0B1110;
+  --bg-surface: #131D1B;
+  --bg-surface-alt: #192623;
+  --bg-surface-elevated: #1F2D2A;
+  --bg-header: rgba(11, 17, 16, 0.92);
+  --bg-backdrop: rgba(0, 0, 0, 0.75);
+
+  /* Typography Colors */
+  --text-primary: #F2F7F5;
+  --text-secondary: #A3B5AF;
+  --text-muted: #7E938D;
+  --text-inverse: #0B1110;
+
+  /* Brand Colors */
+  --brand-primary: #2ECC71;
+  --brand-primary-hover: #27AE60;
+  --brand-primary-light: rgba(46, 204, 113, 0.12);
+  --brand-on-primary: #061A10;
+
+  /* Accent & Energy Colors */
+  --brand-accent: #F1C40F;
+  --brand-accent-hover: #F39C12;
+  --brand-accent-light: rgba(241, 196, 15, 0.14);
+  --brand-on-accent: #0A0A0A;
+
+  /* Actions & Status */
+  --action-whatsapp: #25D366;
+  --action-whatsapp-hover: #22BF5B;
+  --action-phone: #38BDF8;
+  --status-error: #FF6B6B;
+  --status-error-bg: rgba(255, 107, 107, 0.14);
+  --status-success: #2ECC71;
+  --status-success-bg: rgba(46, 204, 113, 0.14);
+  --status-info: #54A0FF;
+  --status-info-bg: rgba(84, 160, 255, 0.14);
+
+  /* Borders & Dividers */
+  --border-subtle: #243531;
+  --border-strong: #334A44;
+  --border-accent: rgba(241, 196, 15, 0.4);
+  --focus-ring: #F1C40F;
+
+  /* Elevation Shadows */
+  --shadow-xs: 0 1px 3px rgba(0, 0, 0, 0.35);
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.45);
+  --shadow-hover: 0 14px 32px -4px rgba(46, 204, 113, 0.18);
+  --shadow-dropdown: 0 12px 36px -6px rgba(0, 0, 0, 0.65);
+  --shadow-modal: 0 24px 60px -12px rgba(0, 0, 0, 0.85);
+  --shadow-glow: 0 0 25px rgba(241, 196, 15, 0.25);
+}
+
+/* Global Constant Tokens (Theme-Invariant) */
+:root {
+  /* Typography Scale */
+  --font-family-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-family-body: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.8125rem;   /* 13px */
+  --text-md: 0.875rem;    /* 14px */
+  --text-base: 0.9375rem; /* 15px */
+  --text-lg: 1.0625rem;   /* 17px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 2rem;       /* 32px */
+  --text-4xl: 2.75rem;    /* 44px */
+
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 9999px;
+
+  /* Layout & Containers */
+  --container-max: 1200px;
+  --container-gutter: 20px;
+  --header-height: 76px;
+  --mobile-bottom-bar-height: 64px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-theme: background-color 250ms ease, color 250ms ease, border-color 250ms ease, box-shadow 250ms ease;
+}
+

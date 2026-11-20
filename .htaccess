@@ -1,0 +1,28 @@
+# Icon English School - Apache / cPanel URL Rewriting & Legacy Redirects
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Redirect legacy .php URLs to modern .html
+  RewriteRule ^index\.php$ /index.html [R=301,L]
+  RewriteRule ^about\.php$ /about.html [R=301,L]
+  RewriteRule ^admission\.php$ /admission.html [R=301,L]
+  RewriteRule ^facilities\.php$ /facilities.html [R=301,L]
+  RewriteRule ^gallery\.php$ /gallery.html [R=301,L]
+  RewriteRule ^management\.php$ /management.html [R=301,L]
+  RewriteRule ^contact\.php$ /contact.html [R=301,L]
+
+  # Redirect extensionless URLs to .html
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+</IfModule>
+
+# Caching & Performance Headers
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+

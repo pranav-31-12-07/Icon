@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <circle cx="150" cy="150" r="145" fill="#FEF9E7" stroke="#E6BE1E" stroke-width="6"/>
+  <!-- Academic Cap / Mortarboard -->
+  <polygon points="150,45 220,70 150,95 80,70" fill="#00612E"/>
+  <rect x="110" y="85" width="80" height="20" rx="3" fill="#004922"/>
+  <path d="M210,75 L218,125" stroke="#E6BE1E" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="218" cy="128" r="5" fill="#E6BE1E"/>
+  <!-- Face -->
+  <circle cx="150" cy="135" r="44" fill="#E0AC69"/>
+  <!-- Professional Attire -->
+  <path d="M85,255 C85,195 110,185 150,185 C190,185 215,195 215,255 Z" fill="#1B3B2B"/>
+  <polygon points="140,185 160,185 150,225" fill="#FFFFFF"/>
+</svg>
