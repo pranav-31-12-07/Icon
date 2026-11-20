@@ -233,6 +233,18 @@
   transform: translateX(0);
 }
 
+/* Mobile Safeguard: Disable horizontal translation on mobile screens to prevent viewport sliding */
+@media (max-width: 768px) {
+  .reveal-left,
+  .reveal-right {
+    transform: translateY(24px);
+  }
+  .reveal-left.is-revealed,
+  .reveal-right.is-revealed {
+    transform: translateY(0);
+  }
+}
+
 .reveal-scale {
   opacity: 0;
   transform: scale(0.92);

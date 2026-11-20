@@ -94,11 +94,6 @@ function initCounterRollup() {
  * Automatically applies dropping effect to page hero elements and top announcement ribbon
  */
 function initDroppingEntrances() {
-  const announcementBar = document.querySelector('.announcement-bar');
-  if (announcementBar) {
-    announcementBar.classList.add('animate-drop-in');
-  }
-
   // Hero elements staggered drop
   const heroDropTargets = document.querySelectorAll('.hero-drop-target');
   heroDropTargets.forEach((el, index) => {

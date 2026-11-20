@@ -9,14 +9,15 @@ window.IESData = {
     tagline: "Nurturing Excellence, Character & Holistic Learning",
     affiliation: "Recognized English Medium School (State Board Curriculum)",
     location: {
-      plot: "Plot No. 37, Jyotinagar, Osmanpura Parisar",
-      landmark: "Behind Raka's Life Style Club",
+      plot: "37, Sahakar Nagar",
+      area: "New Usmanpura",
       cityModern: "Chhatrapati Sambhajinagar",
       cityLegacy: "Aurangabad",
       pincode: "431005",
       state: "Maharashtra",
       country: "India",
-      fullAddress: "Plot No. 37, Jyotinagar, Osmanpura Parisar (Behind Raka's Life Style Club), Chhatrapati Sambhajinagar (Aurangabad) - 431005, Maharashtra, India"
+      fullAddress: "37, Sahakar Nagar, New Usmanpura, Chhatrapati Sambhajinagar, Maharashtra 431005",
+      mapsSearchUrl: "https://www.google.com/maps/search/?api=1&query=37,+Sahakar+Nagar,+New+Usmanpura,+Chhatrapati+Sambhajinagar,+Maharashtra+431005"
     },
     contact: {
       primaryPerson: "Shivkumar Niyogi",
@@ -26,7 +27,8 @@ window.IESData = {
       email: "niyogi.kumar@gmail.com",
       whatsappNumber: "919527749595",
       officeHours: "Monday – Saturday: 8:30 AM – 4:30 PM",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.484931327915!2d75.32145!3d19.86185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb98679093b169%3A0x6b1b2f72c0576390!2sOsmanpura%2C%20Chhatrapati%20Sambhajinagar!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+      mapUrl: "https://maps.google.com/maps?q=37,+Sahakar+Nagar,+New+Usmanpura,+Chhatrapati+Sambhajinagar,+Maharashtra+431005&t=&z=16&ie=UTF8&iwloc=B&output=embed",
+      mapsSearchUrl: "https://www.google.com/maps/search/?api=1&query=37,+Sahakar+Nagar,+New+Usmanpura,+Chhatrapati+Sambhajinagar,+Maharashtra+431005"
     },
     stats: [
       { id: "years", count: 15, suffix: "+", label: "Years of Academic Excellence" },
@@ -222,7 +224,7 @@ window.IESData = {
   faqs: [
     {
       q: "Where is Icon English School located?",
-      a: "The school is conveniently located at Plot No. 37, Jyotinagar, Osmanpura Parisar, directly behind Raka's Life Style Club in Chhatrapati Sambhajinagar (Aurangabad) - 431005."
+      a: "The school is conveniently located at 37, Sahakar Nagar, New Osmanpura, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra 431005."
     },
     {
       q: "What grades are offered for admission?",
